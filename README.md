@@ -1,15 +1,28 @@
-Executive Summary
-As part of its server virtualization strategy, HostPenny plans to replace its 35,000
-physical servers with 3,500 new, more powerful servers that run virtual machines. Even if
-acquiring new servers and software has a high initial cost, the overall expenditures over the next
-five years will be significantly lower than if the current system keeps running.
+# Virtualization Cost-Benefit Analysis – HostPenny
 
-HostPenny's servers presently cost more than $3.3 billion to operate and maintain over a
-five-year period, mostly due to staffing and backup operations. It is estimated that the new
-virtualized system will save the firm $1.35 billion over the same time period, at a cost of around
-$1.95 billion. These savings are mostly a result of less backup time and organizational effort, as
-virtual servers are easier to manage and need less maintenance.
+A 5-year financial analysis comparing the cost of maintaining a current physical server infrastructure versus migrating to a virtualized system for a simulated enterprise client, HostPenny.
 
-In conclusion, despite the huge initial investment, the virtualization project will
-significantly cut recurrent costs and increase productivity. It is a wise and cost-effective move for
-HostPenny in the long run.
+## Project Summary
+HostPenny currently operates 35,000 physical servers at a projected 5-year cost of over $3.3 billion. This analysis evaluates replacing that infrastructure with 3,500 new virtualized servers and calculates the projected savings over the same period.
+
+## Key Findings
+- Current 5-year infrastructure cost: $3,303,729,457.98
+- Proposed virtualized system cost: $1,950,248,113.87
+- Net 5-year savings: $1,353,481,344.11
+- Savings are driven primarily by reduced server administration time and backup operations
+
+## What the Spreadsheet Covers
+- Constants and shared variables (power rates, administrative costs, storage costs)
+- Current scenario: hard and soft costs across 5 server groups over 5 years
+- Proposed scenario: new server purchases, virtualization software, training, and reduced operational costs
+- Final cost summary comparing both scenarios year by year
+
+## Concepts Used
+- Enterprise IT cost modeling
+- Server virtualization planning
+- Hard cost vs. soft cost analysis
+- 5-year TCO (Total Cost of Ownership) calculation
+- Executive summary writing for IT decision-makers
+
+## Course
+System Administration & Maintenance (CNT 4603) – University of Central Florida
